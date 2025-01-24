@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traffic light</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+</head>
+
+<body id="body">
+
+  <!-- <div class="jumbotron"> -->
+  <div class="th">
+    <h1>Traffic Signal</h1>
+    <p class="nam">By M Lokesh Gupta</p>
+  </div>
+
+  <!-- </div> -->
+  <div class="container">
+
+    <div class="card cd">
+
+      <div class=" card-body">
+        <div class="pair"> <button type="button" onclick="onStart()" ondblclick="onDDClick()"
+            class="btn btn-success uniformButton startbtn">Start</button>
+          <svg xmlns="http://www.w3.org/2000/svg" id="fill1" width="100" height="100" fill="white"
+            class="bi bi-circle-fill va" viewBox="0 0 16 16">
+            <circle cx="8" cy="8" r="8" />
+          </svg>
+        </div>
+        <div class="pair"><button type="button" onclick="onStarto()" ondblclick="onDDClick()"
+            class="btn btn-warning uniformButton readybtn">Ready</button> <svg xmlns="http://www.w3.org/2000/svg"
+            id="fill2" width="100" height="100" fill="white" class="bi bi-circle-fill va" viewBox="0 0 16 16">
+            <circle cx="8" cy="8" r="8" />
+          </svg></div>
+        <div class="pair"><button type="button" onclick="onStartr()" ondblclick="onDDClick()" class="btn btn-danger 
+          uniformButton stopbtn">Stop</button>
+          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="white" id="fill3"
+            class="bi bi-circle-fill va" viewBox="0 0 16 16">
+            <circle cx="8" cy="8" r="8" />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="copyrightFoother">
+    <p>Developed by @Lokesh gupta M | date : 23 jan 2025 |contact : 2100032484cseh@gmail.com </p>
+  </div>
+</body>
+
+</html>

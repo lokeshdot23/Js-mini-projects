@@ -1,0 +1,74 @@
+body {
+    background-color: skyblue;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    margin: 0;
+}
+/* .jumbotron{
+    padding: 0px;
+    height: 0px;
+} */
+.container{
+    height: 100vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uniformButton{
+    width: 150px;
+    height: 50px;
+    margin-right: 20px;
+}
+.card-body{
+    background-color: #f0f0f0;
+
+}
+.card-body .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+.va{
+    vertical-align: middle;
+    /* border:#a85252 ; */
+}
+
+.cd {
+    width: 300px;
+    padding: 10px;
+    border: 10px dotted #ffffff;
+    border-radius: 10px;
+    width: 300px;
+    background-color:#a85252;
+
+}
+.pair{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 20px; 
+}
+.th {
+    display: flex;
+    display: inline;
+    justify-content: space-evenly;
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add spacing below */
+    font-size: 70px; /* Adjust the size if needed */
+    font-style: oblique;
+    /* background-color: black; */
+}
+#nam{
+    display: flex;
+    /* justify-content: end; */
+    /* background-color: black; */
+}.copyrightFoother {
+    padding-top: 5px;
+    text-align: center;
+    background-color: rgb(71, 83, 95);
+    color: white;
+    font-family: Roboto;
+    height: 50px;
+}
